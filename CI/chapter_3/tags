@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+__init__	.\clusters.py	/^	def __init__(self,vec,left=None,right=None,distance=0,id=None):$/;"	m	class:bicluster
+__init__	.\generatefeedvector.py	/^	def __init__(self,vec,left=None,right=None,distance=0,id=None):$/;"	m	class:bicluster
+bicluster	.\clusters.py	/^class bicluster:$/;"	c
+bicluster	.\generatefeedvector.py	/^class bicluster:$/;"	c
+feedparser	.\generatefeedvector.py	/^import feedparser$/;"	i
+getwordcounts	.\generatefeedvector.py	/^def getwordcounts(url):$/;"	f
+getwords	.\generatefeedvector.py	/^def getwords(html):	$/;"	f
+hcluster	.\clusters.py	/^def hcluster(rows,distance=pearson):$/;"	f
+hcluster	.\generatefeedvector.py	/^def hcluster(rows,distance=pearson):$/;"	f
+main	.\generatefeedvector.py	/^def main():$/;"	f
+pdb	.\clusters.py	/^import pdb$/;"	i
+pdb	.\generatefeedvector.py	/^import pdb$/;"	i
+pearson	.\clusters.py	/^def pearson(v1,v2):$/;"	f
+printclust	.\clusters.py	/^def printclust(clust,labels=None,n=0)$/;"	f
+re	.\generatefeedvector.py	/^import re$/;"	i
+readfile	.\clusters.py	/^def readfile(filename):$/;"	f
+sqrt	.\clusters.py	/^from math import sqrt$/;"	i

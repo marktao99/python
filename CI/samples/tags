@@ -1,0 +1,481 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AKISMET_PORT	.\akismet.py	/^AKISMET_PORT = 80$/;"	v
+AKISMET_URL	.\akismet.py	/^AKISMET_URL = "rest.akismet.com"$/;"	v
+AkismetError	.\akismet.py	/^class AkismetError(Exception):$/;"	c
+AverageTest	.\clusters_test.py	/^class AverageTest(unittest.TestCase):$/;"	c
+BeautifulSoup	.\downloadzebodata.py	/^from BeautifulSoup import BeautifulSoup$/;"	i
+BeautifulSoup	.\searchengine.py	/^from BeautifulSoup import BeautifulSoup$/;"	i
+BiclusterTest	.\clusters_test.py	/^class BiclusterTest(unittest.TestCase):$/;"	c
+BuildTagsListTest	.\deliciousrec_test.py	/^class BuildTagsListTest(unittest.TestCase):$/;"	c
+ClassifierTest	.\docclass_test.py	/^class ClassifierTest(unittest.TestCase):$/;"	c
+ClassifyTest	.\treepredict_test.py	/^class ClassifyTest(unittest.TestCase):$/;"	c
+CrawlerTest	.\searchengine_test.py	/^class CrawlerTest(unittest.TestCase):$/;"	c
+DistanceTestCase	.\recommendations_test.py	/^class DistanceTestCase:$/;"	c
+DividesetTest	.\treepredict_test.py	/^class DividesetTest(unittest.TestCase):$/;"	c
+DoReadfileTest	.\clusters_test.py	/^class DoReadfileTest(unittest.TestCase):$/;"	c
+EntropyTest	.\treepredict_test.py	/^class EntropyTest(unittest.TestCase):$/;"	c
+EuclDistTest	.\clusters_test.py	/^class EuclDistTest(unittest.TestCase):$/;"	c
+FisherclassifierTest	.\docclass_test.py	/^class FisherclassifierTest(unittest.TestCase):$/;"	c
+GetRecommendationsTest	.\recommendations_test.py	/^class GetRecommendationsTest(unittest.TestCase):$/;"	c
+GetRecommendedItemsTest	.\recommendations_test.py	/^class GetRecommendedItemsTest(unittest.TestCase):$/;"	c
+GetnearestTest	.\clusters_test.py	/^class GetnearestTest(unittest.TestCase):$/;"	c
+GetwordsTest	.\docclass_test.py	/^class GetwordsTest(unittest.TestCase):$/;"	c
+GetwordsTest	.\generatefeedvector_test.py	/^class GetwordsTest(unittest.TestCase):$/;"	c
+GiniimpurityTest	.\treepredict_test.py	/^class GiniimpurityTest(unittest.TestCase):$/;"	c
+HclusterTest	.\clusters_test.py	/^class HclusterTest(unittest.TestCase):$/;"	c
+Image	.\drawclust.py	/^import Image, ImageDraw$/;"	i
+Image	.\drawgraph.py	/^import Image, ImageDraw$/;"	i
+Image	.\drawtree.py	/^import Image, ImageDraw$/;"	i
+ImageDraw	.\drawclust.py	/^import Image, ImageDraw$/;"	i
+ImageDraw	.\drawgraph.py	/^import Image, ImageDraw$/;"	i
+ImageDraw	.\drawtree.py	/^import Image, ImageDraw$/;"	i
+KclusterTest	.\clusters_test.py	/^class KclusterTest(unittest.TestCase):$/;"	c
+Links	.\layoutgraph.py	/^Links=[('Augustus', 'Willy'), $/;"	v
+NaivebayesTest	.\docclass_test.py	/^class NaivebayesTest(unittest.TestCase):$/;"	c
+PartitionTest	.\numpredict_test.py	/^class PartitionTest(unittest.TestCase):$/;"	c
+People	.\layoutgraph.py	/^People=['Charlie','Augustus','Veruca','Violet','Mike','Joe','Willy','Miranda']$/;"	v
+RowbbTest	.\clusters_test.py	/^class RowbbTest(unittest.TestCase):$/;"	c
+S	.\drawnumpredict.py	/^S = 1.0$/;"	v
+ScaledownTest	.\clusters_test.py	/^class ScaledownTest(unittest.TestCase):$/;"	c
+SimDistanceTestCase	.\recommendations_test.py	/^class SimDistanceTestCase(DistanceTestCase, unittest.TestCase):$/;"	c
+SimPearsonTestCase	.\recommendations_test.py	/^class SimPearsonTestCase(DistanceTestCase, unittest.TestCase):$/;"	c
+SimTanimotoTestCase	.\recommendations_test.py	/^class SimTanimotoTestCase(DistanceTestCase, unittest.TestCase):$/;"	c
+TestdataTest	.\treepredict_test.py	/^class TestdataTest(unittest.TestCase):$/;"	c
+TestinterceptTest	.\layoutgraph_test.py	/^class TestinterceptTest(unittest.TestCase):$/;"	c
+TopMatchesTest	.\recommendations_test.py	/^class TopMatchesTest(unittest.TestCase):$/;"	c
+TransformPrefsTest	.\recommendations_test.py	/^class TransformPrefsTest(unittest.TestCase):$/;"	c
+TransposeTest	.\clusters_test.py	/^class TransposeTest(unittest.TestCase):$/;"	c
+USERAGENT	.\akismet.py	/^USERAGENT = ""$/;"	v
+VecAngleTest	.\layoutgraph_test.py	/^class VecAngleTest(unittest.TestCase):$/;"	c
+__author__	.\akismet.py	/^__author__ = "David Lynch (kemayo AT Google's mail service DOT com)"$/;"	v
+__copyright__	.\akismet.py	/^__copyright__ = "Copyright 2005, David Lynch"$/;"	v
+__date__	.\akismet.py	/^__date__ = "2005-12-01"$/;"	v
+__del__	.\nn.py	/^  def __del__(self):$/;"	m	class:searchnet	file:
+__del__	.\searchengine.py	/^  def __del__(self):$/;"	m	class:crawler	file:
+__del__	.\searchengine.py	/^  def __del__(self):$/;"	m	class:searcher	file:
+__eq__	.\clusters.py	/^  def __eq__(self, b):$/;"	m	class:bicluster	file:
+__hash__	.\clusters.py	/^  def __hash__(self):$/;"	m	class:bicluster	file:
+__init__	.\akismet.py	/^    def __init__(self, response, statuscode):$/;"	m	class:AkismetError
+__init__	.\clusters.py	/^  def __init__(self, vec, left=None, right=None, distance=0.0, id=None):$/;"	m	class:bicluster
+__init__	.\docclass.py	/^  def __init__(self, getfeatures):$/;"	m	class:fisherclassifier
+__init__	.\docclass.py	/^  def __init__(self, getfeatures):$/;"	m	class:naivebayes
+__init__	.\docclass.py	/^  def __init__(self, getfeatures, filename=None):$/;"	m	class:classifier
+__init__	.\nn.py	/^  def __init__(self, dbname):$/;"	m	class:searchnet
+__init__	.\searchengine.py	/^  def __init__(self, dbname):$/;"	m	class:crawler
+__init__	.\searchengine.py	/^  def __init__(self, dbname):$/;"	m	class:searcher
+__init__	.\treepredict.py	/^  def __init__(self, col=-1, value=None, results=None, tb=None, fb=None):$/;"	m	class:decisionnode
+__license__	.\akismet.py	/^__license__ = "New BSD"$/;"	v
+__ne__	.\clusters.py	/^  def __ne__(self, b):$/;"	m	class:bicluster	file:
+__post	.\akismet.py	/^def __post(request, host, path, port = 80):$/;"	f	file:
+__str__	.\akismet.py	/^    def __str__(self):$/;"	m	class:AkismetError	file:
+__str__	.\clusters.py	/^  def __str__(self):$/;"	m	class:bicluster	file:
+__version__	.\akismet.py	/^__version__ = "0.3"$/;"	v
+addlinkref	.\searchengine.py	/^  def addlinkref(self, urlfrom, urlto, linktext):$/;"	m	class:crawler
+addtoindex	.\searchengine.py	/^  def addtoindex(self, url, soup):$/;"	m	class:crawler
+akismet	.\akismettest.py	/^import akismet$/;"	i
+annealingoptimize	.\optimization.py	/^def annealingoptimize(domain, costf, T=10000.0, cool=0.95, step=1):$/;"	f
+apikey	.\hotornot.py	/^apikey = '479NUNJHETN'$/;"	v
+average	.\clusters.py	/^def average(indices, rows):$/;"	f
+backpropagate	.\nn.py	/^  def backpropagate(self, targets, N=0.5):$/;"	m	class:searchnet
+bicluster	.\clusters.py	/^class bicluster(object):$/;"	c
+buildTagsList	.\deliciousrec.py	/^def buildTagsList(user_dict):$/;"	f
+buildtree	.\treepredict.py	/^def buildtree(rows, scorefun=entropy):$/;"	f
+bundled	.\nn.py	/^import sqlite3 as sqlite  # use the bundled mysq   l$/;"	i
+c	.\clusters.py	/^  c = hcluster(data)$/;"	v
+c	.\downloadzebodata.py	/^  c = urllib2.urlopen('http:\/\/member.zebo.com\/Main?' +$/;"	v
+calculatepagerank	.\searchengine.py	/^  def calculatepagerank(self, iterations=20):$/;"	m	class:crawler
+catcount	.\docclass.py	/^  def catcount(self, cat):$/;"	m	class:classifier
+categories	.\docclass.py	/^  def categories(self):$/;"	m	class:classifier
+cgi	.\searchengine_web.py	/^import cgi$/;"	i
+chare	.\downloadzebodata.py	/^chare = re.compile(r'[!-\\.&]')$/;"	v
+cl	.\clusters.py	/^  cl = hcluster(data, distance=tanimoto_dist)$/;"	v
+cl	.\feedfilter.py	/^  cl = docclass.fisherclassifier(entryfeatures)$/;"	v
+classifier	.\docclass.py	/^class classifier(object):$/;"	c
+classify	.\docclass.py	/^  def classify(self, doc, default=None):$/;"	m	class:naivebayes
+classify	.\docclass.py	/^  def classify(self, item, default=None):$/;"	m	class:fisherclassifier
+classify	.\treepredict.py	/^def classify(observation, tree):$/;"	f
+cleanup	.\treepredict.py	/^  def cleanup(s):$/;"	f	function:testdata
+clusters	.\clusters_test.py	/^import clusters$/;"	i
+clusters	.\numpredict.py	/^import clusters$/;"	i
+collections	.\deliciousrec.py	/^import collections$/;"	i
+collections	.\docclass.py	/^import collections$/;"	i
+collections	.\downloadzebodata.py	/^import collections$/;"	i
+collections	.\generatefeedvector.py	/^import collections$/;"	i
+collections	.\optimization.py	/^import collections$/;"	i
+collections	.\repo.py	/^import collections$/;"	i
+collections	.\treepredict.py	/^import collections$/;"	i
+comment_check	.\akismet.py	/^def comment_check(key, blog, user_ip, user_agent, **other):$/;"	f
+coords	.\clusters.py	/^  coords = scaledown(data)$/;"	v
+costf	.\numpredict.py	/^  def costf(scale):$/;"	f	function:createcostfunction
+costfunc	.\optimization.py	/^def costfunc(flights, dest):$/;"	f
+cprob	.\docclass.py	/^  def cprob(self, cat):$/;"	m	class:classifier
+cprob	.\docclass.py	/^  def cprob(self, f, cat):$/;"	m	class:fisherclassifier
+crawl	.\searchengine.py	/^  crawl = crawler('searchindex.db')$/;"	v	class:searcher
+crawl	.\searchengine.py	/^  def crawl(self, pages, depth=2):$/;"	m	class:crawler
+crawler	.\searchengine.py	/^class crawler:$/;"	c
+create	.\searchengine.py	/^  create = not os.path.exists('searchindex.db')$/;"	v	class:searcher
+createcostfunction	.\numpredict.py	/^def createcostfunction(algfun, data):$/;"	f
+createindextables	.\searchengine.py	/^  def createindextables(self):$/;"	m	class:crawler
+createschedule	.\kayak.py	/^def createschedule(people, dest, dep, ret):$/;"	f
+critics	.\collective-intelligence-master\recommendations.py	/^critics = {$/;"	v
+critics	.\recommendations.py	/^critics = {$/;"	v
+cross	.\layoutgraph.py	/^def cross(p1, p2):$/;"	f
+crosscost	.\layoutgraph.py	/^  def crosscost(v):$/;"	f	function:makecost
+crossover	.\optimization.py	/^  def crossover(r1, r2):$/;"	f	function:geneticoptimize
+crossvalidate	.\numpredict.py	/^def crossvalidate(algfun, data, trials=100, pTest=0.05):$/;"	f
+cumulativegraph	.\drawnumpredict.py	/^def cumulativegraph(data, vec1, high, k=5, weightfun=numpredict.gaussianweight):$/;"	f
+currentuser	.\downloadzebodata.py	/^currentuser = 0$/;"	v
+d	.\hotornot.py	/^  d = getrandomratings(50)$/;"	v
+dbcommit	.\searchengine.py	/^  def dbcommit(self):$/;"	m	class:crawler
+decisionnode	.\treepredict.py	/^class decisionnode(object):$/;"	c
+defaultagent	.\akismettest.py	/^defaultagent = 'Mozilla\/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; en-us) '$/;"	v
+defaultkey	.\akismettest.py	/^defaultkey = '09d55c02ef86'$/;"	v
+deliData	.\repo.py	/^def deliData():$/;"	f
+deliciousrec	.\deliciousrec_test.py	/^import deliciousrec$/;"	i
+deliciousrec	.\repo.py	/^  import deliciousrec$/;"	i
+distancescore	.\searchengine.py	/^  def distancescore(self, rows):$/;"	m	class:searcher
+dividedata	.\numpredict.py	/^def dividedata(data, pTest=0.05):$/;"	f
+divideset	.\treepredict.py	/^def divideset(rows, column, value):$/;"	f
+do_readfile	.\clusters.py	/^def do_readfile(lines):$/;"	f
+docclass	.\docclass_test.py	/^import docclass$/;"	i
+docclass	.\feedfilter.py	/^  import docclass$/;"	i
+docprob	.\docclass.py	/^  def docprob(self, doc, cat):$/;"	m	class:naivebayes
+dom	.\hotornot.py	/^import xml.dom.minidom$/;"	i
+dom	.\kayak.py	/^import xml.dom.minidom$/;"	i
+dom	.\zillow.py	/^import xml.dom.minidom$/;"	i
+domain	.\dorm.py	/^domain = [(0, len(dorms)*2 - i - 1) for i in range(0, len(dorms)*2)]$/;"	v
+domain	.\drawgraph.py	/^  domain = [(10, 370)] * (len(layoutgraph.People) * 2)$/;"	v
+domain	.\kayak.py	/^  domain = [(0, 30)] * len(f)$/;"	v
+dormcost	.\dorm.py	/^def dormcost(vec):$/;"	f
+dorms	.\dorm.py	/^dorms = ['Zeus', 'Athena', 'Hercules', 'Bacchus', 'Pluto']$/;"	v
+draw2d	.\drawclust.py	/^def draw2d(data, labels, filename='clust2d.png'):$/;"	f
+drawclust	.\clusters.py	/^  import drawclust$/;"	i
+drawdendogram	.\drawclust.py	/^def drawdendogram(clust, labels, filename='clusters.png'):$/;"	f
+drawnetwork	.\drawgraph.py	/^def drawnetwork(sol, people, links, filename='net.png'):$/;"	f
+drawnode	.\drawclust.py	/^def drawnode(draw, clust, x, y, scale, labels):$/;"	f
+drawnode	.\drawtree.py	/^def drawnode(draw, tree, x, y):$/;"	f
+drawtree	.\drawtree.py	/^def drawtree(tree, png='tree.png'):$/;"	f
+drawtree	.\hotornot.py	/^  import drawtree$/;"	i
+drawtree	.\zillow.py	/^  import drawtree$/;"	i
+dropwords	.\downloadzebodata.py	/^dropwords = [$/;"	v
+dtanh	.\nn.py	/^def dtanh(y):$/;"	f
+entropy	.\treepredict.py	/^def entropy(rows):$/;"	f
+entryfeatures	.\feedfilter.py	/^def entryfeatures(entry):$/;"	f
+euclid_dist	.\clusters.py	/^def euclid_dist(v1, v2):$/;"	f
+euclidean	.\numpredict.py	/^euclidean = clusters.euclid_dist$/;"	v
+f	.\drawgraph.py	/^  f = layoutgraph.makecost(layoutgraph.People, layoutgraph.Links)$/;"	v
+f	.\kayak.py	/^  f = createschedule([('Nico', 'SFO'), ('Kerstin', 'SFO')], 'LGA',$/;"	v
+fcount	.\docclass.py	/^  def fcount(self, f, cat):$/;"	m	class:classifier
+feedforward	.\nn.py	/^  def feedforward(self):$/;"	m	class:searchnet
+feedparser	.\feedfilter.py	/^import feedparser$/;"	i
+feedparser	.\generatefeedvector.py	/^import feedparser$/;"	i
+fillAll	.\deliciousrec.py	/^def fillAll(user_dict):$/;"	f
+fillItems	.\deliciousrec.py	/^def fillItems(user_dict):$/;"	f
+fisherclassifier	.\docclass.py	/^class fisherclassifier(classifier):$/;"	c
+fisherprob	.\docclass.py	/^  def fisherprob(self, doc, cat):$/;"	m	class:fisherclassifier
+flightsearch	.\kayak.py	/^def flightsearch(sid, origin, destination, depart_date):$/;"	f
+flightsearchresults	.\kayak.py	/^def flightsearchresults(sid, searchid):$/;"	f
+fprob	.\docclass.py	/^  def fprob(self, f, cat):$/;"	m	class:classifier
+frequencyscore	.\searchengine.py	/^  def frequencyscore(self, rows):$/;"	m	class:searcher
+gaussianweight	.\numpredict.py	/^def gaussianweight(dist, sigma=5.0):$/;"	f
+generatefeedvector	.\generatefeedvector_test.py	/^import generatefeedvector$/;"	i
+generatehiddennode	.\nn.py	/^  def generatehiddennode(self, wordids, urls):$/;"	m	class:searchnet
+geneticoptimize	.\optimization.py	/^def geneticoptimize(domain, costf, popsize=50, step=1,$/;"	f
+getRecommendations	.\collective-intelligence-master\recommendations.py	/^def getRecommendations(prefs,person,similarity=sim_pearson):$/;"	f
+getRecommendations	.\recommendations.py	/^def getRecommendations(prefs,person,similarity=sim_pearson):$/;"	f
+get_popular	.\deliciousrec.py	/^from pydelicious import get_popular, get_userposts, get_urlposts$/;"	i
+get_urlposts	.\deliciousrec.py	/^from pydelicious import get_popular, get_userposts, get_urlposts$/;"	i
+get_userposts	.\deliciousrec.py	/^from pydelicious import get_popular, get_userposts, get_urlposts$/;"	i
+getaddressdata	.\zillow.py	/^def getaddressdata(address, city):$/;"	f
+getallhiddenids	.\nn.py	/^  def getallhiddenids(self, wordids, urlids):$/;"	m	class:searchnet
+getdepth	.\drawclust.py	/^def getdepth(clust):$/;"	f
+getdepth	.\drawtree.py	/^def getdepth(tree):$/;"	f
+getdistances	.\numpredict.py	/^def getdistances(data, vec1):$/;"	f
+getentryid	.\searchengine.py	/^  def getentryid(self, table, field, value, createnew=True):$/;"	m	class:crawler
+getheight	.\drawclust.py	/^def getheight(clust):$/;"	f
+getkayaksession	.\kayak.py	/^def getkayaksession():$/;"	f
+getmatchquery	.\searchengine.py	/^  def getmatchquery(self, q):$/;"	m	class:searcher
+getmatchrows	.\searchengine.py	/^  def getmatchrows(self, q):$/;"	m	class:searcher
+getminimum	.\docclass.py	/^  def getminimum(self, cat):$/;"	m	class:fisherclassifier
+getminutes	.\optimization.py	/^def getminutes(t):$/;"	f
+getnearest	.\clusters.py	/^def getnearest(v, points, distance):$/;"	f
+getpeopledata	.\hotornot.py	/^def getpeopledata(ratings):$/;"	f
+getpricelist	.\zillow.py	/^def getpricelist():$/;"	f
+getrandomratings	.\hotornot.py	/^def getrandomratings(c):$/;"	f
+getresult	.\nn.py	/^  def getresult(self, wordids, urlids):$/;"	m	class:searchnet
+getscoredlist	.\searchengine.py	/^  def getscoredlist(self, rows, wordids):$/;"	m	class:searcher
+getstrength	.\nn.py	/^  def getstrength(self, fromid, toid, layer):$/;"	m	class:searchnet
+gettextonly	.\searchengine.py	/^  def gettextonly(self, soup):$/;"	m	class:crawler
+getthreshold	.\docclass.py	/^  def getthreshold(self, cat):$/;"	m	class:naivebayes
+geturlname	.\searchengine.py	/^  def geturlname(self, id):$/;"	m	class:searcher
+getwidth	.\drawtree.py	/^def getwidth(tree):$/;"	f
+getwordcounts	.\generatefeedvector.py	/^def getwordcounts(url):$/;"	f
+getwords	.\docclass.py	/^def getwords(doc):$/;"	f
+getwords	.\generatefeedvector.py	/^def getwords(html):$/;"	f
+giniimpurity	.\treepredict.py	/^def giniimpurity(rows):$/;"	f
+hcluster	.\clusters.py	/^def hcluster(rows, distance=pearson_dist):$/;"	f
+hillclimbopt	.\optimization.py	/^def hillclimbopt(domain, costf):$/;"	f
+httpd	.\searchengine_web.py	/^  httpd = simple_server.make_server('', 8000, serve_search)$/;"	v
+httplib	.\akismet.py	/^import httplib$/;"	i
+hypot	.\clusters.py	/^def hypot(v):$/;"	f
+ignorewords	.\searchengine.py	/^ignorewords = set(['the', 'of', 'to', 'and', 'a', 'in', 'is', 'it'])$/;"	v
+inboundlinkscore	.\searchengine.py	/^  def inboundlinkscore(self, rows):$/;"	m	class:searcher
+incc	.\docclass.py	/^  def incc(self, cat):$/;"	m	class:classifier
+incf	.\docclass.py	/^  def incf(self, f, cat):$/;"	m	class:classifier
+initializeUserDict	.\deliciousrec.py	/^def initializeUserDict(tag, count=5):$/;"	f
+interestingwords	.\feedfilter.py	/^def interestingwords(s):$/;"	f
+invchi2	.\docclass.py	/^  def invchi2(self, chi, df):$/;"	m	class:fisherclassifier
+inverseweight	.\numpredict.py	/^def inverseweight(dist, num=1.0, const=0.1):$/;"	f
+isindexed	.\searchengine.py	/^  def isindexed(self, url):$/;"	m	class:crawler
+isspam	.\akismettest.py	/^def isspam(comment, author, ip, agent=defaultagent, apikey=defaultkey):$/;"	f
+itemowners	.\downloadzebodata.py	/^itemowners = collections.defaultdict(dict)$/;"	v
+items	.\downloadzebodata.py	/^      items = [$/;"	v
+kayakkey	.\kayak.py	/^kayakkey = 'ESxXILZlrprRyXZPtPLxig'$/;"	v
+kclust	.\clusters.py	/^  kclust = kcluster(data, k=10)$/;"	v
+kcluster	.\clusters.py	/^def kcluster(rows, distance=pearson_dist, k=4):$/;"	f
+knnestimate	.\numpredict.py	/^def knnestimate(data, vec1, k=3):$/;"	f
+l	.\nn.py	/^import sqlite3 as sqlite  # use the bundled mysq   l$/;"	i
+layoutgraph	.\drawgraph.py	/^import layoutgraph$/;"	i
+layoutgraph	.\layoutgraph_test.py	/^import layoutgraph$/;"	i
+linktextscore	.\searchengine.py	/^  def linktextscore(self, rows, wordids):$/;"	m	class:searcher
+loadMovieLens	.\repo.py	/^def loadMovieLens(path='movielens'):$/;"	f
+locationscore	.\searchengine.py	/^  def locationscore(self, rows):$/;"	m	class:searcher
+log	.\treepredict.py	/^  from math import log$/;"	i
+main	.\generatefeedvector.py	/^def main():$/;"	f
+makecost	.\layoutgraph.py	/^def makecost(people, links):$/;"	f
+maketables	.\nn.py	/^  def maketables(self):$/;"	m	class:searchnet
+math	.\docclass.py	/^import math$/;"	i
+math	.\dorm.py	/^import math$/;"	i
+math	.\layoutgraph.py	/^import math$/;"	i
+math	.\numpredict.py	/^import math$/;"	i
+math	.\optimization.py	/^import math$/;"	i
+mdclassify	.\treepredict.py	/^def mdclassify(observation, tree):$/;"	f
+mergevecs	.\clusters.py	/^def mergevecs(a, b):$/;"	f
+minidom	.\hotornot.py	/^import xml.dom.minidom$/;"	i
+minidom	.\kayak.py	/^import xml.dom.minidom$/;"	i
+minidom	.\zillow.py	/^import xml.dom.minidom$/;"	i
+mutate	.\optimization.py	/^  def mutate(vec):$/;"	f	function:geneticoptimize
+mysq	.\nn.py	/^import sqlite3 as sqlite  # use the bundled mysq   l$/;"	i
+naivebayes	.\docclass.py	/^class naivebayes(classifier):$/;"	c
+net	.\nn.py	/^  net = searchnet('nn.db')$/;"	v
+net	.\searchengine.py	/^net = nn.searchnet('nn.db')  # XXX: somehow train this from user clicks$/;"	v
+nn	.\searchengine.py	/^import nn$/;"	i
+nnscore	.\searchengine.py	/^  def nnscore(self, rows, wordids):$/;"	m	class:searcher
+normalizescores	.\searchengine.py	/^  def normalizescores(self, scores, smallIsBetter=False):$/;"	m	class:searcher
+numpredict	.\drawnumpredict.py	/^import numpredict$/;"	i
+numpredict	.\numpredict_test.py	/^import numpredict$/;"	i
+operator	.\docclass.py	/^import operator$/;"	i
+optimization	.\dorm.py	/^  import optimization$/;"	i
+optimization	.\drawgraph.py	/^  import optimization$/;"	i
+optimization	.\kayak.py	/^  import optimization$/;"	i
+optimization	.\layoutgraph.py	/^  import optimization$/;"	i
+os	.\repo.py	/^import os$/;"	i
+os	.\searchengine.py	/^import os$/;"	i
+out	.\downloadzebodata.py	/^out = open('zebo.txt', 'w')$/;"	v
+pagerankscore	.\searchengine.py	/^  def pagerankscore(self, rows):$/;"	m	class:searcher
+pageurl	.\akismettest.py	/^pageurl = 'http:\/\/groups.google.com'$/;"	v
+parseCsv	.\optimization.py	/^def parseCsv(lines):$/;"	f
+parseprice	.\kayak.py	/^  def parseprice(p):  # strip currency and commas$/;"	f	function:flightsearchresults
+partition	.\numpredict.py	/^def partition(l, pred):$/;"	f
+pdata	.\hotornot.py	/^  pdata = getpeopledata(d)$/;"	v
+pearson	.\clusters.py	/^def pearson(v1, v2):$/;"	f
+pearson_dist	.\clusters.py	/^def pearson_dist(v1, v2):$/;"	f
+pprint	.\drawnumpredict.py	/^  import pprint$/;"	i
+prefs	.\dorm.py	/^prefs=[('Toby', ('Bacchus', 'Hercules')),$/;"	v
+printclust	.\clusters.py	/^def printclust(clust, labels=None, n=0):$/;"	f
+printschedule	.\optimization.py	/^def printschedule(r, dest):$/;"	f
+printsolution	.\dorm.py	/^def printsolution(vec):$/;"	f
+printtree	.\treepredict.py	/^def printtree(tree, indent=''):$/;"	f
+prob	.\docclass.py	/^  def prob(self, cat, doc):$/;"	m	class:naivebayes
+probabilitygraph	.\drawnumpredict.py	/^def probabilitygraph(data, vec1, high, k=5, weightfun=numpredict.gaussianweight,$/;"	f
+probguess	.\numpredict.py	/^def probguess(data, vec1, low, high, k=5, weightfun=gaussianweight):$/;"	f
+prune	.\treepredict.py	/^def prune(tree, mingain):$/;"	f
+query	.\searchengine.py	/^  def query(self, q):$/;"	m	class:searcher
+random	.\clusters.py	/^import random$/;"	i
+random	.\dorm.py	/^import random$/;"	i
+random	.\numpredict.py	/^import random$/;"	i
+random	.\optimization.py	/^import random$/;"	i
+randomoptimize	.\optimization.py	/^def randomoptimize(domain, costf):$/;"	f
+re	.\docclass.py	/^import re$/;"	i
+re	.\downloadzebodata.py	/^import re$/;"	i
+re	.\feedfilter.py	/^import re$/;"	i
+re	.\generatefeedvector.py	/^import re$/;"	i
+re	.\searchengine.py	/^import re$/;"	i
+read	.\feedfilter.py	/^def read(feed, classifier):$/;"	f
+readfile	.\clusters.py	/^def readfile(filename):$/;"	f
+recommendations	.\deliciousrec.py	/^  import recommendations$/;"	i
+recommendations	.\recommendations_test.py	/^import recommendations$/;"	i
+recommendations	.\repo.py	/^  import recommendations$/;"	i
+rescale	.\numpredict.py	/^def rescale(data, scale):$/;"	f
+rowbb	.\clusters.py	/^def rowbb(rows):$/;"	f
+s	.\dorm.py	/^  s = optimization.geneticoptimize(domain, dormcost)$/;"	v
+s	.\drawgraph.py	/^  s = optimization.annealingoptimize(domain, f, step=50, cool=0.99)$/;"	v
+s	.\drawnumpredict.py	/^  s = numpredict.wineset3(k=500)$/;"	v
+s	.\kayak.py	/^  s = optimization.geneticoptimize(domain, optimization.costfunc(f, 'LGA'))$/;"	v
+s	.\numpredict.py	/^  s = wineset1(50)$/;"	v
+s	.\numpredict.py	/^  s = wineset2(50)$/;"	v
+s	.\numpredict.py	/^  s = wineset3()$/;"	v
+s	.\searchengine.py	/^  s = searcher('searchindex.db')$/;"	v	class:searcher
+sampletrain	.\docclass.py	/^def sampletrain(cl):$/;"	f
+scaledown	.\clusters.py	/^def scaledown(data, distance=pearson_dist, rate=0.01):$/;"	f
+schedulecost	.\optimization.py	/^  def schedulecost(sol):$/;"	f	function:costfunc
+searchengine	.\searchengine_test.py	/^import searchengine$/;"	i
+searchengine	.\searchengine_web.py	/^import searchengine$/;"	i
+searcher	.\searchengine.py	/^class searcher:$/;"	c
+searchnet	.\nn.py	/^class searchnet:$/;"	c
+separatewords	.\searchengine.py	/^  def separatewords(self, text):$/;"	m	class:crawler
+serve_search	.\searchengine_web.py	/^def serve_search(environ, start_response):$/;"	f
+setUp	.\recommendations_test.py	/^  def setUp(self):$/;"	m	class:GetRecommendationsTest
+setUp	.\recommendations_test.py	/^  def setUp(self):$/;"	m	class:SimDistanceTestCase
+setUp	.\recommendations_test.py	/^  def setUp(self):$/;"	m	class:SimPearsonTestCase
+setUp	.\recommendations_test.py	/^  def setUp(self):$/;"	m	class:SimTanimotoTestCase
+setUp	.\recommendations_test.py	/^  def setUp(self):$/;"	m	class:TopMatchesTest
+setUp	.\searchengine_test.py	/^  def setUp(self):$/;"	m	class:CrawlerTest
+setdb	.\docclass.py	/^  def setdb(self, dbfile):$/;"	m	class:classifier
+setminimum	.\docclass.py	/^  def setminimum(self, cat, min):$/;"	m	class:fisherclassifier
+setstrength	.\nn.py	/^  def setstrength(self, fromid, toid, layer, strength):$/;"	m	class:searchnet
+setthreshold	.\docclass.py	/^  def setthreshold(self, cat, t):$/;"	m	class:naivebayes
+setupnetwork	.\nn.py	/^  def setupnetwork(self, wordids, urlids):$/;"	m	class:searchnet
+sim_distance	.\collective-intelligence-master\recommendations.py	/^def sim_distance(prefs,person1,person2):$/;"	f
+sim_distance	.\recommendations.py	/^def sim_distance(prefs,person1,person2):$/;"	f
+sim_pearson	.\collective-intelligence-master\recommendations.py	/^def sim_pearson(prefs,p1,p2):$/;"	f
+sim_pearson	.\recommendations.py	/^def sim_pearson(prefs,p1,p2):$/;"	f
+simple_server	.\searchengine_web.py	/^  from wsgiref import simple_server$/;"	i
+slotlist	.\dorm.py	/^def slotlist(l):$/;"	f
+solutiontodict	.\layoutgraph.py	/^def solutiontodict(v, people):$/;"	f
+soup	.\downloadzebodata.py	/^  soup = BeautifulSoup(c.read())$/;"	v
+sqlite	.\docclass.py	/^from pysqlite2 import dbapi2 as sqlite$/;"	i
+sqlite	.\nn.py	/^import sqlite3 as sqlite  # use the bundled mysq   l$/;"	i
+sqlite	.\searchengine.py	/^from pysqlite2 import dbapi2 as sqlite$/;"	i
+sqrt	.\clusters.py	/^from math import sqrt$/;"	i
+sqrt	.\collective-intelligence-master\recommendations.py	/^from math import sqrt$/;"	i
+sqrt	.\recommendations.py	/^from math import sqrt$/;"	i
+stateregions	.\hotornot.py	/^stateregions={'New England':['ct','mn','ma','nh','ri','vt'],$/;"	v
+stubDistance	.\recommendations_test.py	/^    def stubDistance(prefs, p1, p2):$/;"	f	function:TopMatchesTest.testBasics
+submit_ham	.\akismet.py	/^def submit_ham(key, blog, user_ip, user_agent, **other):$/;"	f
+submit_spam	.\akismet.py	/^def submit_spam(key, blog, user_ip, user_agent, **other):$/;"	f
+subtractweight	.\numpredict.py	/^def subtractweight(dist, const=1.0):$/;"	f
+tablename	.\nn.py	/^  def tablename(self, layer):$/;"	m	class:searchnet
+tanh	.\nn.py	/^from math import tanh$/;"	i
+tanimoto_dist	.\clusters.py	/^def tanimoto_dist(v1, v2):$/;"	f
+test1x3	.\clusters_test.py	/^  def test1x3(self):$/;"	m	class:TransposeTest
+test2x2	.\clusters_test.py	/^  def test2x2(self):$/;"	m	class:TransposeTest
+test3x1	.\clusters_test.py	/^  def test3x1(self):$/;"	m	class:TransposeTest
+testAdditionalLeft	.\recommendations_test.py	/^  def testAdditionalLeft(self):$/;"	m	class:DistanceTestCase
+testAdditionalRight	.\recommendations_test.py	/^  def testAdditionalRight(self):$/;"	m	class:DistanceTestCase
+testAllEmpty	.\recommendations_test.py	/^  def testAllEmpty(self):$/;"	m	class:TransformPrefsTest
+testAngle	.\layoutgraph_test.py	/^  def testAngle(self):$/;"	m	class:VecAngleTest
+testBasic	.\docclass_test.py	/^  def testBasic(self):$/;"	m	class:ClassifierTest
+testBasic	.\numpredict_test.py	/^  def testBasic(self):$/;"	m	class:PartitionTest
+testBasics	.\deliciousrec_test.py	/^  def testBasics(self):$/;"	m	class:BuildTagsListTest
+testBasics	.\generatefeedvector_test.py	/^  def testBasics(self):$/;"	m	class:GetwordsTest
+testBasics	.\recommendations_test.py	/^  def testBasics(self):$/;"	m	class:GetRecommendationsTest
+testBasics	.\recommendations_test.py	/^  def testBasics(self):$/;"	m	class:GetRecommendedItemsTest
+testBasics	.\recommendations_test.py	/^  def testBasics(self):$/;"	m	class:TopMatchesTest
+testBasics	.\recommendations_test.py	/^  def testBasics(self):$/;"	m	class:TransformPrefsTest
+testBasics	.\treepredict_test.py	/^  def testBasics(self):$/;"	m	class:ClassifyTest
+testBasics	.\treepredict_test.py	/^  def testBasics(self):$/;"	m	class:EntropyTest
+testBasics	.\treepredict_test.py	/^  def testBasics(self):$/;"	m	class:GiniimpurityTest
+testClassify	.\docclass_test.py	/^  def testClassify(self):$/;"	m	class:FisherclassifierTest
+testClassify	.\docclass_test.py	/^  def testClassify(self):$/;"	m	class:NaivebayesTest
+testCollect	.\recommendations_test.py	/^  def testCollect(self):$/;"	m	class:TransformPrefsTest
+testEmptyIntersection	.\recommendations_test.py	/^  def testEmptyIntersection(self):$/;"	m	class:DistanceTestCase
+testEmptyPrefs	.\recommendations_test.py	/^  def testEmptyPrefs(self):$/;"	m	class:DistanceTestCase
+testEmptyPrefsList	.\recommendations_test.py	/^  def testEmptyPrefsList(self):$/;"	m	class:TransformPrefsTest
+testEndpointTouches	.\layoutgraph_test.py	/^  def testEndpointTouches(self):$/;"	m	class:TestinterceptTest
+testEndpointTouchesParallel	.\layoutgraph_test.py	/^  def testEndpointTouchesParallel(self):$/;"	m	class:TestinterceptTest
+testEquals	.\clusters_test.py	/^  def testEquals(self):$/;"	m	class:BiclusterTest
+testFloatDivide	.\treepredict_test.py	/^  def testFloatDivide(self):$/;"	m	class:DividesetTest
+testIdentical	.\recommendations_test.py	/^  def testIdentical(self):$/;"	m	class:DistanceTestCase
+testIntegerDivide	.\treepredict_test.py	/^  def testIntegerDivide(self):$/;"	m	class:DividesetTest
+testIntersect	.\layoutgraph_test.py	/^  def testIntersect(self):$/;"	m	class:TestinterceptTest
+testLoads	.\treepredict_test.py	/^  def testLoads(self):$/;"	m	class:TestdataTest
+testNLargetThanCount	.\recommendations_test.py	/^  def testNLargetThanCount(self):$/;"	m	class:TopMatchesTest
+testNoIntersect	.\layoutgraph_test.py	/^  def testNoIntersect(self):$/;"	m	class:TestinterceptTest
+testNormal	.\clusters_test.py	/^  def testNormal(self):$/;"	m	class:AverageTest
+testNormal	.\clusters_test.py	/^  def testNormal(self):$/;"	m	class:DoReadfileTest
+testNormal	.\clusters_test.py	/^  def testNormal(self):$/;"	m	class:EuclDistTest
+testNormal	.\clusters_test.py	/^  def testNormal(self):$/;"	m	class:GetnearestTest
+testNormal	.\clusters_test.py	/^  def testNormal(self):$/;"	m	class:HclusterTest
+testNormal	.\clusters_test.py	/^  def testNormal(self):$/;"	m	class:KclusterTest
+testNormal	.\clusters_test.py	/^  def testNormal(self):$/;"	m	class:RowbbTest
+testNormal	.\clusters_test.py	/^  def testNormal(self):$/;"	m	class:ScaledownTest
+testNormal	.\recommendations_test.py	/^  def testNormal(self):$/;"	m	class:SimDistanceTestCase
+testNormal	.\recommendations_test.py	/^  def testNormal(self):$/;"	m	class:SimPearsonTestCase
+testNormal	.\recommendations_test.py	/^  def testNormal(self):$/;"	m	class:SimTanimotoTestCase
+testNormalWithDistance	.\recommendations_test.py	/^  def testNormalWithDistance(self):$/;"	m	class:TopMatchesTest
+testNormalWithPearson	.\recommendations_test.py	/^  def testNormalWithPearson(self):$/;"	m	class:TopMatchesTest
+testOneCategory	.\docclass_test.py	/^  def testOneCategory(self):$/;"	m	class:FisherclassifierTest
+testOneEqualElement	.\recommendations_test.py	/^  def testOneEqualElement(self):$/;"	m	class:DistanceTestCase
+testOnlyEmptyPrefs	.\recommendations_test.py	/^  def testOnlyEmptyPrefs(self):$/;"	m	class:TransformPrefsTest
+testParallelNoTouch	.\layoutgraph_test.py	/^  def testParallelNoTouch(self):$/;"	m	class:TestinterceptTest
+testProb	.\docclass_test.py	/^  def testProb(self):$/;"	m	class:FisherclassifierTest
+testProb	.\docclass_test.py	/^  def testProb(self):$/;"	m	class:NaivebayesTest
+testSeparatewords	.\searchengine_test.py	/^  def testSeparatewords(self):$/;"	m	class:CrawlerTest
+testStringDivide	.\treepredict_test.py	/^  def testStringDivide(self):$/;"	m	class:DividesetTest
+testStripDuplicates	.\docclass_test.py	/^  def testStripDuplicates(self):$/;"	m	class:GetwordsTest
+testalgorithm	.\numpredict.py	/^def testalgorithm(algfun, trainset, testset):$/;"	f
+testdata	.\treepredict.py	/^def testdata():$/;"	f
+testintersect	.\layoutgraph.py	/^def testintersect(l1, l2):$/;"	f
+the	.\nn.py	/^import sqlite3 as sqlite  # use the bundled mysq   l$/;"	i
+time	.\deliciousrec.py	/^import time$/;"	i
+time	.\kayak.py	/^import time$/;"	i
+time	.\optimization.py	/^import time$/;"	i
+topMatches	.\collective-intelligence-master\recommendations.py	/^def topMatches(prefs,person,n=5,similarity=sim_pearson):$/;"	f
+topMatches	.\recommendations.py	/^def topMatches(prefs,person,n=5,similarity=sim_pearson):$/;"	f
+totalcount	.\docclass.py	/^  def totalcount(self):$/;"	m	class:classifier
+train	.\docclass.py	/^  def train(self, item, cat):$/;"	m	class:classifier
+trainquery	.\nn.py	/^  def trainquery(self, wordids, urlids, selectedurl):$/;"	m	class:searchnet
+transformPrefs	.\collective-intelligence-master\recommendations.py	/^def transformPrefs(prefs):$/;"	f
+transformPrefs	.\recommendations.py	/^def transformPrefs(prefs):$/;"	f
+transpose	.\clusters.py	/^def transpose(data):$/;"	f
+tree	.\drawtree.py	/^  tree = treepredict.buildtree(treepredict.testdata())$/;"	v
+tree	.\hotornot.py	/^  tree = treepredict.buildtree(pdata, treepredict.variance)$/;"	v
+treepredict	.\drawtree.py	/^  import treepredict$/;"	i
+treepredict	.\hotornot.py	/^  import treepredict$/;"	i
+treepredict	.\treepredict_test.py	/^import treepredict$/;"	i
+treepredict	.\zillow.py	/^  import treepredict$/;"	i
+txt	.\downloadzebodata.py	/^        txt = ' '.join([t for t in item.split(' ') if t not in dropwords])$/;"	v
+uniquecounts	.\treepredict.py	/^def uniquecounts(rows):$/;"	f
+unittest	.\clusters_test.py	/^import unittest$/;"	i
+unittest	.\deliciousrec_test.py	/^import unittest$/;"	i
+unittest	.\docclass_test.py	/^import unittest$/;"	i
+unittest	.\generatefeedvector_test.py	/^import unittest$/;"	i
+unittest	.\layoutgraph_test.py	/^import unittest$/;"	i
+unittest	.\numpredict_test.py	/^import unittest$/;"	i
+unittest	.\optimization_test.py	/^import unittest$/;"	i
+unittest	.\recommendations_test.py	/^import unittest$/;"	i
+unittest	.\searchengine_test.py	/^import unittest$/;"	i
+unittest	.\treepredict_test.py	/^import unittest$/;"	i
+updatedatabase	.\nn.py	/^  def updatedatabase(self):$/;"	m	class:searchnet
+urlencode	.\akismet.py	/^from urllib import urlencode$/;"	i
+urllib2	.\downloadzebodata.py	/^import urllib2$/;"	i
+urllib2	.\hotornot.py	/^import urllib2$/;"	i
+urllib2	.\kayak.py	/^import urllib2$/;"	i
+urllib2	.\searchengine.py	/^import urllib2$/;"	i
+urllib2	.\zillow.py	/^import urllib2$/;"	i
+urlparse	.\searchengine.py	/^import urlparse$/;"	i
+urls	.\nn.py	/^  urls = [uWorldBank, uRiver, uEarth]$/;"	v
+use	.\nn.py	/^import sqlite3 as sqlite  # use the bundled mysq   l$/;"	i
+users	.\deliciousrec.py	/^  users = initializeUserDict('programming')$/;"	v
+variance	.\treepredict.py	/^def variance(rows):$/;"	f
+vec_angle	.\layoutgraph.py	/^def vec_angle(p1, p0, p2):$/;"	f
+vec_length	.\layoutgraph.py	/^def vec_length(p):$/;"	f
+verify_key	.\akismet.py	/^def verify_key(key, blog):$/;"	f
+weightedknn	.\numpredict.py	/^def weightedknn(data, vec1, k=3, weightfun=gaussianweight):$/;"	f
+weightedprob	.\docclass.py	/^  def weightedprob(self, f, cat, prf, weight=1.0, ap=0.5):$/;"	m	class:classifier
+wine	.\drawnumpredict.py	/^  wine = [99.0, 20.0]  # choose params were the sample data is somewhat dense$/;"	v
+wineprice	.\numpredict.py	/^def wineprice(rating, age):$/;"	f
+wineset1	.\numpredict.py	/^def wineset1(k=300):$/;"	f
+wineset2	.\numpredict.py	/^def wineset2(k=300):$/;"	f
+wineset3	.\numpredict.py	/^def wineset3(k=300):$/;"	f
+words	.\nn.py	/^  words = [wWorld, wBank]$/;"	v
+xml	.\hotornot.py	/^import xml.dom.minidom$/;"	i
+xml	.\kayak.py	/^import xml.dom.minidom$/;"	i
+xml	.\zillow.py	/^import xml.dom.minidom$/;"	i
+zwskey	.\zillow.py	/^zwskey = 'X1-ZWz1chwxis15aj_9skq6'$/;"	v

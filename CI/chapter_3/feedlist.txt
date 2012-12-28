@@ -1,0 +1,7 @@
+http://blog.outer-court.com/rss.xml
+http://feeds.searchenginewatch.com/sewblog
+http://blog.topix.net/index.rdf
+http://blogs.abcnews.com/theblotter/index.rdf
+http://feeds.feedburner.com/ConsumingExperienceFull
+http://flagrantdisregard.com/index.php/feed/
+http://featured.gigaom.com/feed/
